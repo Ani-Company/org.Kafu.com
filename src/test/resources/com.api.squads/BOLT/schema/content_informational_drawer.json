@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "content": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "url"
+                  ]
+                },
+                "cta": {
+                  "type": "string"
+                },
+                "cta_background_color": {
+                  "type": "string"
+                },
+                "cta_text_color": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "description_color": {
+                  "type": "string"
+                },
+                "entry_text": {
+                  "type": "string"
+                },
+                "key": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "show_informational_drawer": {
+                  "type": "boolean"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "title_color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "content",
+                "cta",
+                "cta_background_color",
+                "cta_text_color",
+                "description",
+                "description_color",
+                "entry_text",
+                "key",
+                "show_informational_drawer",
+                "title",
+                "title_color"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

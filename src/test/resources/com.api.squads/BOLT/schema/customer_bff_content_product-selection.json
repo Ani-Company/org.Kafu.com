@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "app_location": {
+              "type": "string"
+            },
+            "banners": {
+              "type": "array",
+              "items": {}
+            },
+            "emergency_service": {
+              "type": "object",
+              "properties": {
+                "action": {
+                  "type": "object",
+                  "properties": {
+                    "params": {
+                      "type": "object",
+                      "properties": {
+                        "deeplink": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "deeplink"
+                      ]
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "params",
+                    "type"
+                  ]
+                },
+                "icon": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "url"
+                  ]
+                },
+                "key": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "action",
+                "icon",
+                "key",
+                "text"
+              ]
+            },
+            "sections": {
+              "type": "array",
+              "items": {}
+            },
+            "style": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "app_location",
+            "banners",
+            "emergency_service",
+            "sections",
+            "style"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Alphabets Inc Ltd",
+  "trade_license_no": "TLN_128",
+  "tax_registration_no": "TRN 5677",
+  "description": "We provide tyre change service",
+  "logo_media_id": "55436",
+  "website_urls": [
+    "https://www.example1.com"
+  ],
+  "emails": [
+    "john.doe@example.com"
+  ],
+  "phone_numbers": [
+    "+971543334411",
+    "+971543335555"
+  ],
+  "address_id": "66231",
+  "parent_id": 1
+}

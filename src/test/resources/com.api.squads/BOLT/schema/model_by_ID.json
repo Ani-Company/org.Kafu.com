@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "asset_subtype_key": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "make_id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "asset_subtype_key",
+            "id",
+            "make_id",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "asset_subtype_key": {
+              "type": "string"
+            },
+            "excluded_city_ids": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "excluded_country_ids": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "id": {
+              "type": "integer"
+            },
+            "make_id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "asset_subtype_key",
+            "excluded_city_ids",
+            "excluded_country_ids",
+            "id",
+            "make_id",
+            "name"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "pagination": {
+          "type": "object",
+          "properties": {
+            "total": {
+              "type": "integer"
+            },
+            "count": {
+              "type": "integer"
+            },
+            "page": {
+              "type": "integer"
+            },
+            "per_page": {
+              "type": "integer"
+            },
+            "total_pages": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "total",
+            "count",
+            "page",
+            "per_page",
+            "total_pages"
+          ]
+        }
+      },
+      "required": [
+        "pagination"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "metadata"
+  ]
+}

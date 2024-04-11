@@ -1,0 +1,18 @@
+{
+  "type": "boat",
+  "subtype": "jetski",
+  "exterior_color_type": "red",
+  "registration_plate": {
+    "sections": [
+      "N",
+      "{plate_number}"
+    ],
+    "city_id": 1,
+    "country_id": 1
+  },
+  "fuel_type": "",
+  "name": "MyBoat - {boatnumber}",
+  "attributes": {
+    "name": "MyBoat - {boatnumber}"
+  }
+}

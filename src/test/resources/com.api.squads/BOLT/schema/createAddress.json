@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "user_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number"
+            },
+            "lng": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "lat",
+            "lng"
+          ]
+        },
+        "category": {
+          "type": "string"
+        },
+        "full_address": {
+          "type": "string"
+        },
+        "city_id": {
+          "type": "integer"
+        },
+        "country_id": {
+          "type": "integer"
+        },
+        "country": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "long_name": {
+              "type": "string"
+            },
+            "iso2": {
+              "type": "string"
+            },
+            "iso3": {
+              "type": "string"
+            },
+            "currency_code": {
+              "type": "string"
+            },
+            "flag_emoji": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "long_name",
+            "iso2",
+            "iso3",
+            "currency_code",
+            "flag_emoji"
+          ]
+        },
+        "city": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "iata3": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "country": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "long_name": {
+                  "type": "string"
+                },
+                "iso2": {
+                  "type": "string"
+                },
+                "iso3": {
+                  "type": "string"
+                },
+                "currency_code": {
+                  "type": "string"
+                },
+                "flag_emoji": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "long_name",
+                "iso2",
+                "iso3",
+                "currency_code",
+                "flag_emoji"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "iata3",
+            "country_id",
+            "country"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "user_id",
+        "name",
+        "coordinates",
+        "category",
+        "full_address",
+        "city_id",
+        "country_id",
+        "country",
+        "city",
+        "note",
+        "created_at",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "address"
+  ]
+}

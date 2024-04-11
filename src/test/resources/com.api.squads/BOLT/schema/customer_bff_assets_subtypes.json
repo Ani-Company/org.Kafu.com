@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "available_to_customer": {
+              "type": "boolean"
+            },
+            "type": {
+              "type": "string"
+            },
+            "icon_url": {
+              "type": "string"
+            },
+            "rank": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "key",
+            "title",
+            "label",
+            "subtitle",
+            "available_to_customer",
+            "type",
+            "icon_url",
+            "rank"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "pagination": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer"
+            },
+            "page": {
+              "type": "integer"
+            },
+            "per_page": {
+              "type": "integer"
+            },
+            "total": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "count",
+            "page",
+            "per_page",
+            "total"
+          ]
+        }
+      },
+      "required": [
+        "pagination"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "metadata"
+  ]
+}

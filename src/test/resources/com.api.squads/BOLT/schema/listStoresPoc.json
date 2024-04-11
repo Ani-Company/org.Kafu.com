@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "created_at": {
+              "type": "string"
+            },
+            "deleted_at": {
+              "type": "null"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "phone_number": {
+              "type": "string"
+            },
+            "store_id": {
+              "type": "integer"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "created_at",
+            "deleted_at",
+            "email",
+            "first_name",
+            "id",
+            "last_name",
+            "phone_number",
+            "store_id",
+            "updated_at"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "pagination": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer"
+            },
+            "page": {
+              "type": "integer"
+            },
+            "per_page": {
+              "type": "integer"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "total_pages": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "count",
+            "page",
+            "per_page",
+            "total",
+            "total_pages"
+          ]
+        }
+      },
+      "required": [
+        "pagination"
+      ]
+    }
+  },
+  "required": [
+    "data",
+    "metadata"
+  ]
+}

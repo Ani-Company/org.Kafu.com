@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ranking": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ranking",
+            "sections",
+            "title",
+            "type"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

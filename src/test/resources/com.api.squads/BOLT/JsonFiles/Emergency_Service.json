@@ -1,0 +1,13 @@
+{
+  "vehicleID": "{vehicleID}",
+  "customerID": "{customerID}",
+  "serviceCode" : "{serviceCode}",
+  "source":1,
+  "address": {
+    "coords": {
+      "lat":25.06934700473,
+      "lng":55.13935325390641
+    }
+  },
+  "zendeskTicket": "43332"
+}

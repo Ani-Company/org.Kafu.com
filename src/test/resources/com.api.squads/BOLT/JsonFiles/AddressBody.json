@@ -1,0 +1,11 @@
+{
+  "name": "{name}",
+  "coordinates": {
+    "lat": {lat},
+    "lng": {lng}
+                  },
+  "type": "{type}",
+  "area": "{area}",
+  "notes": "{notes}",
+  "country_code": "{countryCode}"
+}

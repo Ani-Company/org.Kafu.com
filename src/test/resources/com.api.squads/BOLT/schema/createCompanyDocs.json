@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "document": {
+      "type": "object",
+      "properties": {
+        "company_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "deleted_at": {
+          "type": "null"
+        },
+        "expiry_date": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "media_id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "company_id",
+        "created_at",
+        "deleted_at",
+        "expiry_date",
+        "id",
+        "media_id",
+        "type",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "document"
+  ]
+}

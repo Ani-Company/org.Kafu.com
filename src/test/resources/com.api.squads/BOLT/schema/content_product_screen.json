@@ -1,0 +1,484 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "app_location": {
+                  "type": "string"
+                },
+                "banners": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "action": {
+                          "type": "object",
+                          "properties": {
+                            "params": {
+                              "type": "object",
+                              "properties": {
+                                "key": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "key"
+                              ]
+                            },
+                            "type": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "params",
+                            "type"
+                          ]
+                        },
+                        "background_color": {
+                          "type": "string"
+                        },
+                        "content": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "type": {
+                              "type": "string"
+                            },
+                            "url": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "title",
+                            "type",
+                            "url"
+                          ]
+                        },
+                        "description1": {
+                          "type": "string"
+                        },
+                        "description2": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "object",
+                          "properties": {
+                            "background_color": {
+                              "type": "string"
+                            },
+                            "text_color": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "background_color",
+                            "text_color",
+                            "title"
+                          ]
+                        },
+                        "platform": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "rank": {
+                          "type": "integer"
+                        },
+                        "text_color": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "action",
+                        "background_color",
+                        "content",
+                        "description1",
+                        "description2",
+                        "label",
+                        "platform",
+                        "rank",
+                        "text_color",
+                        "title"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "action": {
+                          "type": "object",
+                          "properties": {
+                            "params": {
+                              "type": "object",
+                              "properties": {
+                                "flow_to_trigger": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "flow_to_trigger"
+                              ]
+                            },
+                            "type": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "params",
+                            "type"
+                          ]
+                        },
+                        "background_color": {
+                          "type": "string"
+                        },
+                        "content": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "type": {
+                              "type": "string"
+                            },
+                            "url": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "title",
+                            "type",
+                            "url"
+                          ]
+                        },
+                        "description1": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "object",
+                          "properties": {
+                            "background_color": {
+                              "type": "string"
+                            },
+                            "text_color": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "background_color",
+                            "text_color",
+                            "title"
+                          ]
+                        },
+                        "platform": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "rank": {
+                          "type": "integer"
+                        },
+                        "text_color": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "action",
+                        "background_color",
+                        "content",
+                        "description1",
+                        "label",
+                        "platform",
+                        "rank",
+                        "text_color",
+                        "title"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "action": {
+                          "type": "object",
+                          "properties": {
+                            "params": {
+                              "type": "object",
+                              "properties": {
+                                "key": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "key"
+                              ]
+                            },
+                            "type": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "params",
+                            "type"
+                          ]
+                        },
+                        "background_color": {
+                          "type": "string"
+                        },
+                        "content": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "type": {
+                              "type": "string"
+                            },
+                            "url": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "title",
+                            "type",
+                            "url"
+                          ]
+                        },
+                        "description1": {
+                          "type": "string"
+                        },
+                        "description2": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "type": "object",
+                          "properties": {
+                            "background_color": {
+                              "type": "string"
+                            },
+                            "text_color": {
+                              "type": "string"
+                            },
+                            "title": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "background_color",
+                            "text_color",
+                            "title"
+                          ]
+                        },
+                        "platform": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "rank": {
+                          "type": "integer"
+                        },
+                        "text_color": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "action",
+                        "background_color",
+                        "content",
+                        "description1",
+                        "description2",
+                        "label",
+                        "platform",
+                        "rank",
+                        "text_color",
+                        "title"
+                      ]
+                    }
+                  ]
+                },
+                "sections": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "item_tags": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_types": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_verticals": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "rank": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "item_tags",
+                        "item_types",
+                        "item_verticals",
+                        "rank",
+                        "title"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "item_badges": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_brands": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_limit": {
+                          "type": "integer"
+                        },
+                        "item_store_ids": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "integer"
+                            },
+                            {
+                              "type": "integer"
+                            }
+                          ]
+                        },
+                        "item_tags": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_types": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "item_verticals": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "rank": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "item_badges",
+                        "item_brands",
+                        "item_limit",
+                        "item_store_ids",
+                        "item_tags",
+                        "item_types",
+                        "item_verticals",
+                        "rank",
+                        "title"
+                      ]
+                    }
+                  ]
+                },
+                "style": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "app_location",
+                "banners",
+                "sections",
+                "style"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "country": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "long_name": {
+          "type": "string"
+        },
+        "iso2": {
+          "type": "string"
+        },
+        "iso3": {
+          "type": "string"
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "flag_emoji": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "long_name",
+        "iso2",
+        "iso3",
+        "currency_code",
+        "flag_emoji"
+      ]
+    }
+  },
+  "required": [
+    "country"
+  ]
+}

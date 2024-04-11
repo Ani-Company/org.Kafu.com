@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string"
+            },
+            "timeslots": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "starts_at": {
+                      "type": "string"
+                    },
+                    "ends_at": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "tags": {
+                      "type": "null"
+                    },
+                    "price": {
+                      "type": "null"
+                    },
+                    "promotion": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "starts_at",
+                    "ends_at",
+                    "description",
+                    "tags",
+                    "price",
+                    "promotion"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "date",
+            "timeslots"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

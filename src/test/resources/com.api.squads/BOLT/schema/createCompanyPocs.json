@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "point_of_contact": {
+      "type": "object",
+      "properties": {
+        "company_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "deleted_at": {
+          "type": "null"
+        },
+        "email": {
+          "type": "string"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "company_id",
+        "created_at",
+        "deleted_at",
+        "email",
+        "first_name",
+        "id",
+        "last_name",
+        "phone_number",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "point_of_contact"
+  ]
+}

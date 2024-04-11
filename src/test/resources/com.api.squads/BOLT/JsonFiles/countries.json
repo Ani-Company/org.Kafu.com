@@ -1,0 +1,8 @@
+{
+  "currency_code": "{currency_code}",
+  "flag_emoji": "{flag_emoji}",
+  "iso2": "{iso2}",
+  "iso3": "{iso3}",
+  "long_name": "{long_name}",
+  "name": "{name}"
+}

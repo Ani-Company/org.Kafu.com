@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "trade_license_no": {
+          "type": "string"
+        },
+        "tax_registration_no": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "logo_media_id": {
+          "type": "string"
+        },
+        "website_urls": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "emails": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "phone_numbers": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "address_id": {
+          "type": "string"
+        },
+        "parent_id": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "trade_license_no",
+        "tax_registration_no",
+        "description",
+        "logo_media_id",
+        "website_urls",
+        "emails",
+        "phone_numbers",
+        "address_id",
+        "parent_id",
+        "status",
+        "created_at",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "company"
+  ]
+}

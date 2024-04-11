@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "asset": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "type": {
+          "type": "string"
+        },
+        "subtype": {
+          "type": "string"
+        },
+        "fuel_type": {
+          "type": "string"
+        },
+        "exterior_color_type": {
+          "type": "string"
+        },
+        "registration_plate": {
+          "type": "object",
+          "properties": {
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "city_id": {
+              "type": "integer"
+            },
+            "city": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "iata3": {
+                  "type": "string"
+                },
+                "country_id": {
+                  "type": "integer"
+                },
+                "country": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "long_name": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "long_name",
+                    "country_code"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "iata3",
+                "country_id",
+                "country"
+              ]
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "country": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "long_name": {
+                  "type": "string"
+                },
+                "country_code": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "long_name",
+                "country_code"
+              ]
+            }
+          },
+          "required": [
+            "sections",
+            "city_id",
+            "city",
+            "country_id",
+            "country"
+          ]
+        },
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "subtype": {
+              "type": "object",
+              "properties": {
+                "icon_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "icon_url"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "subtype"
+          ]
+        },
+        "is_default": {
+          "type": "boolean"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "subtype",
+        "fuel_type",
+        "exterior_color_type",
+        "registration_plate",
+        "attributes",
+        "is_default",
+        "created_at",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "asset"
+  ]
+}

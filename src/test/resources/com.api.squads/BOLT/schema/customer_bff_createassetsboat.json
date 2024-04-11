@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "asset": {
+      "type": "object",
+      "properties": {
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "subtype": {
+              "type": "object",
+              "properties": {
+                "icon_url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "icon_url"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "subtype"
+          ]
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "exterior_color_type": {
+          "type": "string"
+        },
+        "fuel_type": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "is_default": {
+          "type": "boolean"
+        },
+        "registration_plate": {
+          "type": "object",
+          "properties": {
+            "city": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "type": "object",
+                  "properties": {
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "long_name": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "country_code",
+                    "id",
+                    "long_name",
+                    "name"
+                  ]
+                },
+                "country_id": {
+                  "type": "integer"
+                },
+                "iata3": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "country",
+                "country_id",
+                "iata3",
+                "id",
+                "name"
+              ]
+            },
+            "city_id": {
+              "type": "integer"
+            },
+            "country": {
+              "type": "object",
+              "properties": {
+                "country_code": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "long_name": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "country_code",
+                "id",
+                "long_name",
+                "name"
+              ]
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "sections": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "city",
+            "city_id",
+            "country",
+            "country_id",
+            "sections"
+          ]
+        },
+        "subtype": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attributes",
+        "created_at",
+        "exterior_color_type",
+        "fuel_type",
+        "id",
+        "is_default",
+        "registration_plate",
+        "subtype",
+        "type",
+        "updated_at"
+      ]
+    }
+  },
+  "required": [
+    "asset"
+  ]
+}

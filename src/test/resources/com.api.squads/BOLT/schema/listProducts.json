@@ -1,0 +1,14 @@
+{
+  "applyPromo": false,
+  "coords": {
+    "lat": 25.200901313365332,
+    "lng": 55.27169108390808
+  },
+  "serviceId": "0VS01000000KzejGAC",
+  "vehicleEngineInfo": [
+    {
+      "engineVariantID": "",
+      "vehicleID": "{vehicleID}"
+    }
+  ]
+}

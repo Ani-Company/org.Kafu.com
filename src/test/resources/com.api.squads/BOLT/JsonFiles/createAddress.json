@@ -1,0 +1,12 @@
+{
+  "address": "{address}",
+  "category": "{category}",
+  "city_id": 0,
+  "coordinates": {
+    "lng": 5.637376656633329,
+    "lat": 5.962133916683182
+  },
+  "country_id": {country_id},
+  "name": "{name}",
+  "note": "Dubai"
+}

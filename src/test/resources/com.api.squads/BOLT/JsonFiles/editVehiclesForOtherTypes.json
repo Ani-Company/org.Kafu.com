@@ -1,0 +1,13 @@
+{
+  "type": "{type}",
+  "subtype": "{subtype}",
+  "exterior_color_type": "{exterior_color_type}",
+  "registration_plate": {
+    "sections": [
+      "N",
+      "{plate_number}"
+    ],
+    "city_id": {city_id},
+    "country_id": {country_id}
+  }
+}

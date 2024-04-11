@@ -1,0 +1,16 @@
+{
+  "type": "{type}",
+  "name": "{name}",
+  "subtype": "{subtype}",
+  "license_plate": {
+    "city_id": {city_id},
+    "country_id": {country_id},
+    "sections": [
+      "N",
+      "{plate_number}"
+    ]
+  },
+  "user_id": "{user_id}",
+  "exterior_color": "{exterior_color}",
+  "fuel_type": "diesel"
+}

@@ -1,0 +1,6 @@
+{
+  "store_id": {store_id},
+  "type": "store_bank_details",
+  "media_id": "{RANDOM}",
+  "expiry_date": "{expiry_date}"
+}

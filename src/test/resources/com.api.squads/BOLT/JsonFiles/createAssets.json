@@ -1,0 +1,17 @@
+{
+  "type": "{type}",
+  "subtype": "{subtype}",
+  "name": "{name}",
+  "model_id": {model_id},
+  "license_plate": {
+    "city_id": {city_id},
+    "country_id": {country_id},
+    "sections": [
+      "N",
+      "{plate_number}"
+    ]
+  },
+  "user_id": "{user_id}",
+  "exterior_color": "{exterior_color}",
+  "fuel_type": "diesel"
+}

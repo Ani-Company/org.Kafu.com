@@ -1,0 +1,14 @@
+{
+  "applyPromo": {applyPromo},
+  "coords": {
+    "lat": {lat},
+    "lng": {lng}
+  },
+  "serviceId": "{serviceId}",
+  "vehicleEngineInfo": [
+    {
+      "engineVariantID": "",
+      "vehicleID": "{vehicleID}"
+    }
+  ]
+}
