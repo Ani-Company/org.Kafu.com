@@ -1,3 +1,13 @@
+#Just for Ani
+every API
+Have a success case
+for failure case
+a) Add incorrect params
+b) dont give params
+c) add incorrect URL
+d) just try and fail it
+
+
 # Getting started with REST API testing with Serenity and Cucumber 6
 
 This is a  CAFU API Automation project for Serenity with Cucumber 6 and RestAssured to ensure the API automated testing
